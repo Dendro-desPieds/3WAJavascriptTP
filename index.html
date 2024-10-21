@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>J1- Base</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<section id="liste">
+    <li>
+        <label>
+            <input type="checkbox">
+            Nom de la tâche
+        </label>
+    </li>
+    <li>
+        <label>
+            <input type="checkbox">
+            Nom de la tâche
+        </label>
+    </li>
+    <li>
+        <label>
+            <input type="checkbox">
+            Nom de la tâche
+        </label>
+    </li>
+</section>
+<section id="formulaire">
+    <form id="add-task-form">
+        <fieldset>
+            <legend>Ajouter une nouvelle tache</legend>
+            <label for="task-title">Nom de la tache</label>
+            <textarea name="task_title" id="task-title"></textarea>
+            <label for="task-priority">Priorité de la tache</label>
+            <select name="task_priority" id="task-priority">
+                <option value="0">-- définissez la priorité --</option>
+                <option value="1">élevée</option>
+                <option value="2">normale</option>
+                <option value="3">faible</option>
+            </select>
+            <button type="submit" id="add">Ajouter</button>
+        </fieldset>
+    </form>
+    <button type="submit" id="remove">Supprimer les taches</button>
+</section>
+</body>
