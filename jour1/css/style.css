@@ -7,3 +7,7 @@
 .faible {
     color: blue;
 }
+
+#liste label:has(input:checked){
+    text-decoration: line-through;
+}

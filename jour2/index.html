@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTf-8">
+    <title>TP JS2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" type="module"></script>
+</head>
+
+<body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div class="palette">
+        <button class="color" style="background-color: red;"></button>
+        <button class="color" style="background-color: blue;"></button>
+        <button class="color" style="background-color: orange;"></button>
+        <button class="color" style="background-color: green;"></button>
+        <button class="color" style="background-color: black;"></button>
+    </div>
+    <form>
+        <div>
+            <input id="lineThickness" type="range" min="1" max="20" value="5">
+            <input id="reset" type="button" value="Effacer">
+        </div>
+        <label for="">
+            <p>importer une image</p>
+            <input type="file" id="import" name="import" accept="image/png, image/jpeg"/>
+        </label>
+        <br><br>
+        <div>
+            <input id="save" type="button" value="Sauvegarder">
+            <a id="downloadLink" download="image.png">Télécharger l'image></a>
+        </div>
+    </form>
+</body>
+
+</html>
