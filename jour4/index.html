@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Tp4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" type="module"></script>
+</head>
+<body>
+    <h1>Rencontre un cinéma près de chez toi</h1>
+    <p>ligne : main:l52 faire fonctionner le forEach</p>
+    <fieldset>
+        <form>
+            <button type="button" id="geolocation-btn">Me géolocaliser</button>
+            <br>
+            <label>Chercher des cinémas proches d'une adresse</label>
+            <input type="search" placeholder="L'adresse recherchée" id="address-search">
+            <br>
+            <label>Distance en km</distance>
+            <input type="range" value="10" min="5" max="30" id="distance-slider">
+            <button id="find-btn">Rechercher</button>
+        </form>
+    </fieldset>
+    <p id="error-txt" hidden> </p>
+    <ul id="cine-list">liste des cinémas</ul>
+    
+</body>
+</html>
