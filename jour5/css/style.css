@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(0, 119, 255);
+}
+
+#movies-list {
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+#movies-list div {
+    width: 20%;
+    margin-bottom: 2vh;
+}
